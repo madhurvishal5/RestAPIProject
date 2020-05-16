@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3840" started-at="2020-05-03T07:01:42Z" finished-at="2020-05-03T07:01:46Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="3840" started-at="2020-05-03T07:01:42Z" finished-at="2020-05-03T07:01:46Z">
+      <class name="com.api.testScripts.getAllCountriesTest">
+        <test-method status="PASS" signature="setReport()[pri:0, instance:com.api.testScripts.getAllCountriesTest@27efef64]" name="setReport" is-config="true" duration-ms="340" started-at="2020-05-03T12:31:42Z" finished-at="2020-05-03T12:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method status="PASS" signature="fetchCountries()[pri:0, instance:com.api.testScripts.getAllCountriesTest@27efef64]" name="fetchCountries" duration-ms="3691" started-at="2020-05-03T12:31:42Z" finished-at="2020-05-03T12:31:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchCountries -->
+        <test-method status="PASS" signature="getResultStatus(org.testng.ITestResult)[pri:0, instance:com.api.testScripts.getAllCountriesTest@27efef64]" name="getResultStatus" is-config="true" duration-ms="2" started-at="2020-05-03T12:31:46Z" finished-at="2020-05-03T12:31:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fetchCountries status=SUCCESS method=getAllCountriesTest.fetchCountries()[pri:0, instance:com.api.testScripts.getAllCountriesTest@27efef64] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultStatus -->
+        <test-method status="PASS" signature="closeApplicationAndEndReport()[pri:0, instance:com.api.testScripts.getAllCountriesTest@27efef64]" name="closeApplicationAndEndReport" is-config="true" duration-ms="482" started-at="2020-05-03T12:31:46Z" finished-at="2020-05-03T12:31:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplicationAndEndReport -->
+      </class> <!-- com.api.testScripts.getAllCountriesTest -->
+      <class name="com.api.testScripts.postNewDataTest">
+        <test-method status="PASS" signature="addNewPostData()[pri:0, instance:com.api.testScripts.postNewDataTest@6f7fd0e6]" name="addNewPostData" duration-ms="119" started-at="2020-05-03T12:31:46Z" finished-at="2020-05-03T12:31:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewPostData -->
+        <test-method status="PASS" signature="getResultStatus(org.testng.ITestResult)[pri:0, instance:com.api.testScripts.postNewDataTest@6f7fd0e6]" name="getResultStatus" is-config="true" duration-ms="1" started-at="2020-05-03T12:31:46Z" finished-at="2020-05-03T12:31:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addNewPostData status=SUCCESS method=postNewDataTest.addNewPostData()[pri:0, instance:com.api.testScripts.postNewDataTest@6f7fd0e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultStatus -->
+      </class> <!-- com.api.testScripts.postNewDataTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
